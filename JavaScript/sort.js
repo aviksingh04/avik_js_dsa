@@ -1,5 +1,4 @@
 // Bubble Sort Implementation in JavaScript
-let array = [4, 2, 1, 5, 7, 80, 3]
 function sort(arr) {
     let arrLength = arr.length;
     for (let i = 0; i < arrLength - 1; i++) {
@@ -14,5 +13,6 @@ function sort(arr) {
     }
     return arr;
 }
+let array = [4, 2, 1, 5, 7, 80, 3]
 let sortedArray = sort(array);
-console.log(sortedArray);
+console.log(sortedArray); // sorted array output  [1, 2,  3, 4,5, 7, 80]
