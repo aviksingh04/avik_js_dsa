@@ -28,7 +28,7 @@ const userData2: newUser2 = { // eg of type
     age: 3,
     city: 'h'
 }
-// we can't create same name type again if we already have,
+// we can't create same name of a  type again if we already have,
 // we can create new interface with the same name and can add the new key over there,
 // we can't assign the new data type into the existing created interface keys,
 //we can assign the new data to the existing key of type,
